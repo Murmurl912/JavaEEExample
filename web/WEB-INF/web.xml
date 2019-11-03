@@ -8,7 +8,7 @@
         <!-- servlet name-->
         <servlet-name>Helloword</servlet-name>
         <!-- servlet class name-->
-        <servlet-class>servlet.HelloWorldServlet</servlet-class>
+        <servlet-class>com.example.servlet.HelloWorldServlet</servlet-class>
     </servlet>
 
     <!-- servlet class nad url mapping-->

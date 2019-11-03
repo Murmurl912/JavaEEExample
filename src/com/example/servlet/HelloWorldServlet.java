@@ -1,4 +1,4 @@
-package servlet;
+package com.example.servlet;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -108,7 +108,7 @@ public class HelloWorldServlet extends HttpServlet {
 
         response.setContentType("text/html; charset=utf-8"); // set response type and charset
         PrintWriter writer = response.getWriter(); // get output stream for response
-        String path = this.getServletContext().getRealPath("live.html");
+        String path = this.getServletContext().getRealPath("classroom.html");
         File file = new File(path);
 
         if(file.exists()) {
